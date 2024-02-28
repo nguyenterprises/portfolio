@@ -48,14 +48,13 @@ function Career() {
         </motion.div>
       </div>
       <h1 className="text-xl text-center">
-        Careers in the food and{" "}
-        <span className="animate-pulse">customer service</span> industries.
+        Careers in the food and <span className="animate-pulse">customer service</span> industries.
       </h1>
       <motion.div
         variants={fadeIn("up", "tween", 2, 1)}
         className="flex flex-col items-center"
       >
-        <div className="text-sm italic">Chumley's, New York</div>
+        <div className="text-sm italic">Chumley&#39;s, New York</div>
         <div className="text-sm italic">An Choi, New York</div>
         <div className="text-sm italic">Haru, New York</div>
         <div className="text-sm italic">Payard Pattiserie, New York</div>

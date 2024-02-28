@@ -49,7 +49,7 @@ function BigPicture() {
           <div className="text-8xl text-yellow-400 dark:text-yellow-300">
             <BsSunriseFill />
           </div>
-          <div>of the company's vision</div>
+          <div>of the company&#39;s vision</div>
         </motion.div>
       </div>
       <motion.div
@@ -60,7 +60,7 @@ function BigPicture() {
           <BsCashCoin />
         </div>
         <div className="flex-flex-wrap">
-          Contributing to the company's growth and future
+          Contributing to the company&#39;s growth and future
         </div>
         <div className="text-4xl text-rose-500 dark:text-rose-400">
           <GiCrystalGrowth />

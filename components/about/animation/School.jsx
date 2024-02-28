@@ -42,7 +42,7 @@ function School() {
         variants={fadeIn("up", "tween", 2, 1)}
         className="flex flex-col items-center"
       >
-        <div className="text-base">St. John's University, New York</div>
+        <div className="text-base">St. John&#39;s University, New York</div>
         <div className="text-sm italic">Bachelors in Finance</div>
       </motion.div>
     </motion.div>

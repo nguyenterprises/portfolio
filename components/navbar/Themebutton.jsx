@@ -14,7 +14,7 @@ export default function Themebutton() {
   }, []);
   useEffect(()=> {
     setTheme("dark")
-  },[])
+  },[setTheme])
 
 
   useEffect(() => {
