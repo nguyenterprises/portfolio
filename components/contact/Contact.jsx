@@ -26,9 +26,9 @@ function Contact() {
         </div>
 
         <div className="flex flex-col items-center gap-2">
-          <div className="text-lg">+1 973-291-8258</div>
+          <div className="text-lg">+1 973-291-2852</div>
           <Link
-            href="tel:+19732918258"
+            href="tel:+19732912852"
             // className="py-2 px-4 bg-red-600 dark:bg-white text-white dark:text-red-600 font-semibold rounded-lg hover:bg-white hover:text-red-600 hover:ring-2 hover:ring-red-600 dark:hover:bg-red-600 dark:hover:text-white dark:hover:ring-white"
             className="py-2 px-4 text-xl bg-red-600  text-white font-semibold rounded-lg hover:bg-white hover:text-red-600 hover:ring-2 hover:ring-red-600 flex items-center gap-2"
           >
