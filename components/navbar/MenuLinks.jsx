@@ -1,20 +1,19 @@
-import Link from "next/link";
 
 function Links() {
   return (
     <div className="hidden sm:flex items-center gap-3">
-      <Link
+      <a
         href="#projects"
         className="text-xs text-gray-500 dark:text-gray-300 hover:text-gray-800 dark:hover:text-white"
       >
         Projects
-      </Link>
-      <Link
+      </a>
+      <a
         href="#about"
         className="text-xs text-gray-500 dark:text-gray-300 hover:text-gray-800 dark:hover:text-white"
       >
         About
-      </Link>
+      </a>
       <a
         href="/Resume.pdf"
         alt="resume"
@@ -24,12 +23,12 @@ function Links() {
       >
         Resume
       </a>
-      <Link
+      <a
         href="#contact"
         className="text-xs text-gray-500 dark:text-gray-300 hover:text-gray-800 dark:hover:text-white"
       >
         Contact
-      </Link>
+      </a>
     </div>
   );
 }

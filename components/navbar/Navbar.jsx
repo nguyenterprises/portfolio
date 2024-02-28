@@ -10,7 +10,7 @@ function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="flex justify-between items-center w-full px-4 py-3 uppercase font-medium">
+    <div id="home" className="flex justify-between items-center w-full px-4 py-3 uppercase font-medium">
       <Link href="/" className="text-sm nav-animate">
         Hanh Nguyen
       </Link>
