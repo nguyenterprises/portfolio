@@ -22,8 +22,8 @@ function About() {
         </h1>
         <CustServ />
       </div>
-      <div>
-        <h1 className="text-center pb-24 text-3xl font-medium uppercase">
+      <div className="w-full flex flex-col gap-24">
+        <h1 className="text-center text-3xl font-medium uppercase">
           History
         </h1>
         <Animation />

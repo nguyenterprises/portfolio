@@ -67,8 +67,8 @@ function Animation() {
   };
 
   return (
-    <div className="h-[30vh] w-full relative">
-      <div ref={eleRef}>{display}</div>
+    <div className="w-full flex flex-col items-center relative">
+      <div ref={eleRef} className="h-[40vh] sm:h-[34vh]">{display}</div>
       <div className="absolute bottom-0 right-1/2 translate-x-1/2 flex items-center gap-2">
         <button onClick={reverse}>
           <div className="text-base text-gray-400">
